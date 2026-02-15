@@ -1,0 +1,15 @@
+# Credentials (never commit these)
+*.env
+!*.env.example
+
+# Runtime data
+scripts/data/backup_baseline.json
+scripts/data/known_devices.json
+scripts/data/known_devices_raw.txt
+scripts/data/fw_drops_last.txt
+
+# Logs
+logs/
+
+# macOS
+.DS_Store
